@@ -6,7 +6,7 @@ def check_website_safety(api_key, website):
     url = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={api_key}"
     payload = {
         "client": {
-            "clientId": "AIzaSyA3yqAaeAM2uUyCBdUD2uwjMnqminDtzcY",  # Replace with your client ID
+            "clientId": "AIzaSyA3yqAaeAM2uUyCBdUD2uwjMnqminDtzcY",
             "clientVersion": "1.0",
         },
         "threatInfo": {
